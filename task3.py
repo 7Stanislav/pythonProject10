@@ -11,7 +11,9 @@
 """
 
 for el in ['attribute', 'класс', 'функция', 'type']:
-    try:
-        print(el, type(el), el.encode('ascii'), ' - записано в байтовом типе')
-    except:
-        print(el, type(el), ' - невозможно записать в байтовом типе')
+    b = bytes(el, 'UTF-8')
+    y = str(b)
+    if el in y:
+        print(el, type(el), (b), ' - записано в байтовом типе')
+    else:
+        print(el, type(el), (b), ' - невозможно записать в байтовом типе')
