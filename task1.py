@@ -19,9 +19,9 @@ el3 = 'декоратор'
 print(type(el1), el1)
 print(type(el2), el2)
 print(type(el3), el3)
-el1_uni = u'\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430'
-el2_uni = u'\u0441\u043e\u043a\u0435\u0442'
-el3_uni = u'\u0434\u0435\u043a\u043e\u0440\u0430\u0442\u043e\u0440'
+el1_uni = '\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430'
+el2_uni = '\u0441\u043e\u043a\u0435\u0442'
+el3_uni = '\u0434\u0435\u043a\u043e\u0440\u0430\u0442\u043e\u0440'
 print(type(el1_uni), el1_uni)
 print(type(el2_uni), el2_uni)
 print(type(el3_uni), el3_uni)
