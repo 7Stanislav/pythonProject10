@@ -8,3 +8,8 @@
 Подсказки:
 --- используйте списки и циклы, не дублируйте функции
 """
+
+for el in ['разработка', 'администрирование', 'protocol', 'standard']:
+    x = el.encode('utf-8', 'replace')
+    y = x.decode('utf-8')
+    print(el, x, y)
